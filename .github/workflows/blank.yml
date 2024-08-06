@@ -12,13 +12,19 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Passo inicial
-      run: echo "Passo inicial!"
+      run: |
+        echo "Passo inicial!"
+        sleep 10
 
     - name: Segundo passo
-      run: echo "Segundo passo!"
+      run: |
+        echo "Segundo passo!"
+        sleep 10
 
     - name: Passo final
-      run: echo "Passo inicial!"
+      run: |
+        echo "Passo final!"
+        sleep 10
   
   deploy:
     runs-on: ubuntu-latest
@@ -26,12 +32,18 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
+          
     - name: Passo inicial
-      run: echo "Passo inicial!"
+      run: |
+        echo "Passo inicial!"
+        sleep 20
 
     - name: Segundo passo
-      run: echo "Segundo passo!"
+      run: |
+        echo "Segundo passo!"
+        sleep 20
 
     - name: Passo final
-      run: echo "Passo inicial!"
+      run: |
+        echo "Passo final!"
+        sleep 20
