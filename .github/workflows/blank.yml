@@ -46,4 +46,4 @@ jobs:
     - name: Passo final
       run: |
         echo "Passo final!"
-        sleep 20
+        exit 1
